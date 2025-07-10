@@ -1,0 +1,51 @@
+/* reset */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+li{
+    list-style-type: none;
+}
+
+/* variables */
+:root{
+    --background-color-side-bar : #0041d9;
+    --background-color-header: #ffffff;
+    --background-color-content: #e2e8f0;
+    --project-border-color: #f0b429;
+    --color-text-side-bar: #ffffff;
+    --font-family : "Open Sans"
+}
+
+
+
+
+
+
+
+
