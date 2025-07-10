@@ -187,3 +187,10 @@ input{
     color: var(--color-text-side-bar);
     font-weight: 500;
 }
+
+/* content styling */
+.trending img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
