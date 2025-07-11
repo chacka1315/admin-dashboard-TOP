@@ -192,6 +192,7 @@ input{
 .search-form > button{
     border: none;
     background-color: var(--background-color-header);
+    cursor: pointer;
 }
 
 .header-links button{
